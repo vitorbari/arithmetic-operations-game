@@ -33,3 +33,36 @@ The difficulty can be adjusted in each one of the "Operation" classes:
 
 - https://docs.arduino.cc/libraries/liquidcrystal/
 - https://docs.arduino.cc/libraries/keyboard/
+
+## Circuit
+
+![Untitled Sketch_bb](https://github.com/user-attachments/assets/3585a0d7-46bd-4dad-91ce-8b299300e2e9)
+
+### LCD Screen
+
+| Arduino Pin | LCD Pin |
+|-------------|---------|
+| 12 | RS |
+| 11 | EN |
+| A2 | D4 |
+| A3 | D5 |
+| A4 | D6 |
+| A5 | D7 |
+| GND | R/W |
+| GND | VSS |
+| 5V | VCC |
+| 5V through a 220 ohm resistor | LED+ |
+| GND | LED- |
+
+### Keypad
+
+| Arduino Pin | Keypad Pin |
+|-------------|------------|
+| 5 | R1 |
+| 4 | R2 |
+| 3 | R3 |
+| 2 | R4 |
+| 9 | C1 |
+| 8 | C2 |
+| 7 | C3 |
+| 6 | C4 |
