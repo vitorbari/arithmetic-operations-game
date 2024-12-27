@@ -24,8 +24,12 @@ The difficulty can be adjusted in each one of the "Operation" classes:
 ## Hardware required
 
 - Arduino Uno board or compatible
-- 16x2 [LCD Screen](https://docs.arduino.cc/learn/electronics/lcd-displays/) (compatible with Hitachi HD44780 driver)
+- 16x2 LCD Screen (compatible with Hitachi HD44780 driver)
 - 10k ohm potentiometer
 - 220 ohm resistor
 - 4x4 matrix keypad
 
+## Arduino Libraries
+
+- https://docs.arduino.cc/libraries/liquidcrystal/
+- https://docs.arduino.cc/libraries/keyboard/
